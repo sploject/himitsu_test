@@ -1,0 +1,17 @@
+# node_modules（ライブラリ群）はGitに含めない
+node_modules/
+
+# 環境変数ファイル（トークンなどの秘密情報）は公開しない
+.env
+
+# OSやエディタが生成する不要ファイル
+.DS_Store
+Thumbs.db
+
+# npmのログなど
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode設定（必要あれば）
+.vscode/
